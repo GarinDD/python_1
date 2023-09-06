@@ -93,3 +93,22 @@ elif number < user_number:
   print("Загадаггле число меньше, чем ваше!")
 
 print("Ты выйграл! У тебя получилось с", count, "попытки")
+
+from turtle import *
+shape("turtle")
+
+pensize(5)
+speed(10)
+color("blue")
+
+for i in range(18):
+   left(20)
+   forward(40)
+   left(90)
+   forward(40)
+   left(90)
+   forward(40)
+   left(90)
+   forward(40)
+   left(90)
+  
