@@ -73,4 +73,23 @@ while var_1 < 5:
   var_1 += 1
   print(var_1)
 
-  
+  import random
+
+print("------------Угадай загаданное число------------")
+print("Вам нужно угадать заданное число!")
+print("Число находится в промежутке от 1 до 10")
+
+number = random.randint(1,10)
+count = 0
+user_number = 0
+
+while user_number != number:
+  user_number = int(input("Ваше число: "))
+  count+=1
+
+if number > user_number:
+  print("Загаданное число больше, чем ваше!")
+elif number < user_number:
+  print("Загадаггле число меньше, чем ваше!")
+
+print("Ты выйграл! У тебя получилось с", count, "попытки")
