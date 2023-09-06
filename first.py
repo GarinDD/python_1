@@ -66,3 +66,11 @@ if result == 1:
  print("Поздравляю, у вас 1 правильный ответ")
 elif result == 2 or result == 3:
  print("Поздравляю, у вас", result , "правильных ответа")
+
+
+var_1 = 0
+while var_1 < 5:
+  var_1 += 1
+  print(var_1)
+
+  
